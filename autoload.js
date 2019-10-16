@@ -3,7 +3,6 @@ const live2d_path = "https://cdn.jsdelivr.net/gh/stevenjoezhang/live2d-widget/";
 //const live2d_path = "/live2d-widget/";
 
 //加载waifu.css
- $("<link>").attr({ href:"https://cdn.jsdelivr.net/npm/font-awesome/css/font-awesome.min.css" , rel: "stylesheet" }).appendTo("head");
 $("<link>").attr({ href: live2d_path + "waifu.css", rel: "stylesheet" }).appendTo("head");
 
 //加载live2d.min.js
